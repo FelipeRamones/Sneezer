@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes/game_objects/player.tscn" type="PackedScene" id=1]
+
+[node name="main" type="Node"]
+
+[node name="player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 536.209, 277.193 )
+
+[node name="label_timer" type="Label" parent="."]
+margin_left = 125.0
+margin_top = 144.737
+margin_right = 370.0
+margin_bottom = 158.737
